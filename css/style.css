@@ -1,0 +1,688 @@
+
+.button-color{
+    background-color: #FDCE1B;
+}
+
+
+.catalogue{
+    color: #FDCE1B !important;
+}
+
+/*Navigation Bar*/
+
+.navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        z-index: 1;
+        -webkit-transition: width 12s;
+        transition: width 12s;
+        -webkit-transition: height 12s;
+        transition: height 12s;
+ }
+
+.navbar-brand-left {
+        position: absolute;
+        display: block;
+        width: 90px;
+        height: 90px;
+        margin-top: 5px;
+        left: 10%;
+        z-index: 1;
+        
+ }
+
+.navbar-nav > li > a{
+    padding: 20px !important;
+}
+
+.navbar{
+    border: none;    
+}
+
+.navbar>.container .navbar-brand-centered,.navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+}
+.navbar-color{
+    background-color: #f80303;
+    opacity: 0.90;
+    
+}
+.menu-element-color{
+    color: #fff !important;
+    opacity: 1 !important;
+    
+}
+
+.catalogue{
+    color: #FDCE1B !important;
+}
+
+li a:hover {
+    border-bottom: 5px solid yellow;
+}
+
+ 
+@font-face{
+    font-family:norwesterimport;
+    src:url("fonts/norwester.ttf");
+    font-family:Reckonerimport;
+    src:url("fonts/Reckoner.ttf");
+    font-family:romanimport;
+    src:url("fonts/roman.ttf");
+}
+
+.mainmenu{
+    margin-top: -1px;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-back{
+    margin-top: -14.9px;
+    z-index: 1;
+}
+
+.canvas{
+    max-width: 100%;
+    max-height: 100%;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.top-margin{
+    margin-top: 100px;
+}
+
+.menu-slide{
+    position: absolute;
+    left: 23%;
+}
+
+.canvas-heading{
+    font-family: 'Droid Serif', serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    /*position: relative;
+    z-index: 1;*/
+    top: 180px;
+    left: 9%;
+    text-align: center;
+}
+
+.fire-logo{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 270px;
+    left: 42%;
+    opacity: 0.80;
+}
+
+.main-quote{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    /*position: absolute;
+    z-index: 1;*/
+    top: 500px;
+    left: 35%;
+}
+
+.main-quotes{
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    font-size: 100px;
+    /*position: absolute;
+    z-index: 1;*/
+    top: 550px;
+    left: 34.5%;
+}
+
+.red{
+    color: red;
+}
+
+.about-heading{
+    font-family: 'Teko', sans-serif;
+    color: red;
+    font-weight: 100;
+    font-size: 100px;
+    margin-top: 50px;
+    border-top: 5px solid #FDCE1B;
+}
+
+.about-description{
+    font-family: 'Electrolize', sans-serif;
+    color: #000;
+    font-size: 30px;
+}
+
+.about-red{
+    color: red;
+    font-family: 'Teko', sans-serif;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.parallax{
+    background: url('../image/About/about.jpg') fixed;
+}
+
+.parallax-inner{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.parallax-client{
+    background: url('../image/clients/client.jpg') fixed;
+    opacity: 0.90;
+}
+
+.parallax-client-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.client-heading{
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    font-size: 100px;
+    padding-top: -100px;
+}
+
+.service-heading{
+    font-family: 'Teko', sans-serif;
+    color: red;
+    font-weight: 100;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.service-description{
+    font-family: 'Electrolize', sans-serif;
+    color: #000;
+    font-size: 30px;
+    margin-top: -25px;
+    border-bottom: 5px solid #FDCE1B;
+}
+
+.fire-service{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -90px;
+    width: 100px;
+    height: 70px;
+     background: red;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+}
+
+.service-fire-name{
+    padding-top: 17px;
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fire-service:hover {
+    width: 300px;
+}
+
+.security-service{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -90px;
+    width: 130px;
+    height: 70px;
+     background: red;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+}
+
+.service-security-name{
+    padding-top: 17px;
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.security-service:hover{
+    width: 300px;
+}
+
+.service-footer{
+    font-family: 'Electrolize', sans-serif;
+    color: red;
+    font-size: 30px;
+}
+
+.service-footer-margin{
+    margin-bottom: 50px;
+}
+
+
+.distributor-heading{
+    margin-top: 100px;
+    font-family: 'Teko', sans-serif;
+    color: red;
+    font-weight: 100;
+    font-size: 100px;
+}
+
+.distributor-description{
+    font-family: 'Teko', sans-serif;
+    color: #000;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.distributor-line{
+    margin-left: 370px;
+    width: 10px;
+    height: 200px;
+    background: red;
+}
+
+.certification{
+    margin-top: 50px;
+}
+
+/*.certification-line{
+    margin-left: -105px;
+    width: 1350px;
+    height: 10px;
+    background: #FDCE1B;
+}*/
+
+.certification-heading{
+    padding-top: -90px;
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.certification-box{
+  margin-left: 60px;
+  text-align:center;
+  background-color:red;
+  width:500px;
+  height:60px;
+  line-height:60px;
+  color:white;
+  position:relative;
+}
+.certification-box:before{
+  content:"";
+  width:0px;
+  height:0px;
+  border-top:60px solid red;
+  border-left:60px solid transparent;
+  position:absolute;
+  right:100%;
+  top:0px;
+}
+
+.certification-box:after{
+  content:"";
+  width:0px;
+  height:0px;
+  border-top:60px solid red;
+  border-right:60px solid transparent;
+  position:absolute;
+  left:100%;
+  top:0px;
+}
+
+
+.contact-image{
+    background: url('../image/contactUs/back.jpg');
+}
+
+.contact-heading{
+    padding-top: 90px;
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.contact-sub-heading{
+    padding-top: 50px;
+}
+
+.contact-dhaka{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-chittagong{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-showroom{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-details{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-color{
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.masrob{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copy{
+    font-family: 'Electrolize', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Social Icons*/
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+ k2 line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+
+
+/*Service*/
+
+#service .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  
+}
+
+#service .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+#service .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+#service .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#service .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+
+#service .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#service .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#service .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#service .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+#service .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+
+#service .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+
+#service * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #service .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+.service-item-name{
+    font-family: 'Electrolize', sans-serif;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.portfolio-caption-border{
+    border: 2px solid red;
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+  
+}
+
+
+
+
+
+
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
+.display-hidden{
+ visibility:hidden;
+}
+.social-buttons li{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+}
+.social-buttons li a{
+    text-align: center;
+    padding: 5px;
+}
+
+.scrollup
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 10;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition:opacity .5s, background-color .5s;
+    -webkit-transition:opacity .5s, background-color .5s;
+}
+
+.scrollup:hover
+{
+    background: #FEC503;
+    opacity: 1;
+}
+
+.scrollup i
+{
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+}
+
